@@ -17,6 +17,18 @@ while(count<0 and count >=(-len(List))):
 for i in list1:
     print(i)
 print ("Testpress"in list1)
+list1.append("Employee-Kaaviya")
+print(list1)
+list1.insert(2,"Pallavaram")
+print(list1)
+list1.insert(len(list1)-1,"Trainee")
+print(list1)
+list1.remove("Employee-Kaaviya")
+print(list1)
+
+#copylist
+list2=list1.copy()
+print(list2)
 
 
 
