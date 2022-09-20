@@ -55,3 +55,25 @@ class Triangle:
 t1=Triangle(2,3,4)
 per=t1.perimeter()
 print("Perimeter of triangle is ",per)
+
+#School
+class School:
+    def __init__(self,name,id,sc_name):
+        self.name=name
+        self.id=id
+        self.sc_name=sc_name
+    def msg(self):
+        print("School is an architecture")
+class Student3(School):
+    def msg(self):
+        print("Student is the one,who learns")
+        super().msg()
+class Teacher(School):
+    def msg(self):
+        print("Teacher is the one,who teaches")
+        super().msg()
+
+s1=Student3("Kaaviya",21,"Anna Univ")
+s1.msg()
+s2=Teacher("Madhu",35,"Anna univ")
+s2.msg()
