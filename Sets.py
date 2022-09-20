@@ -1,0 +1,11 @@
+names={'a','b','c','d','c'}
+print(names)
+name0=set()
+name1=set([2,3,4,5,"kaavs"])
+name2=set((2,-4,"kaavs"))
+name3=set("python")
+name4=set({('name','id','place'):('Kaaviya','21','Chennai')}.keys())
+print(name1)
+print(name2)
+print(name3)
+print(name4)
