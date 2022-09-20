@@ -1,4 +1,7 @@
 List=[1,-2,3,4,5]
+#print(dir(List))
+k=List.__add__("5")
+print(k)
 list1=["Testpress",100,"python",-7.8,99.9999]
 empty_list=[]
 print(List[2])
