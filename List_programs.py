@@ -1,7 +1,3 @@
-from itertools import count
-from queue import Empty
-
-
 List=[1,-2,3,4,5]
 list1=["Testpress",100,"python",-7.8,99.9999]
 empty_list=[]
