@@ -43,3 +43,15 @@ n2=Complex(3,2)
 n3=Complex(1,1)
 add=n1.adding(n2,n3)
 print("add of complex num is ",add.real,"+",add.imag,"i")
+
+#Triangle perimeter
+class Triangle:
+    def __init__(self,a,b,c):
+        self.a=a
+        self.b=b
+        self.c=c
+    def perimeter(self):
+        return self.a+self.b+self.c
+t1=Triangle(2,3,4)
+per=t1.perimeter()
+print("Perimeter of triangle is ",per)
