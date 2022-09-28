@@ -1,5 +1,7 @@
-values=(21,23,-45,56)
+values=21,23,-45,56
 print(values)
+a,b,c,d=values
+print(a)
 print(values[3])
 print(values[0:])
 for i in values:
@@ -14,3 +16,8 @@ quote = "Talk is cheap. Show me the code."
 print("1.", quote[3])
 print("2.", quote[-3])
 print("3.", quote.replace("code", "program"))
+string='stringging'
+tuple=tuple(string)
+print(tuple)
+tup=()
+print(tup)

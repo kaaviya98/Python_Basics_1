@@ -1,10 +1,13 @@
 List=[1,-2,3,4,5]
 #print(dir(List))
-k=List.__add__("5")
+k=List.__add__([2,3])
+List.extend([6,7,8])
+print(List)
 print(k)
+print([2]*3)
 list1=["Testpress",100,"python",-7.8,99.9999]
 empty_list=[]
-print(List[2])
+print(List[:])
 print(list1[1:4])
 print(list1[:2])
 print(List[2:])
@@ -28,6 +31,18 @@ print(list1)
 #copylist
 list2=list1.copy()
 print(list2)
+string={1:2,2:3,3:3,4:2,5:2,6:2}
+print(string)
+list10=string.items()
+print(list10)
+# con_dict = { 'Pink': 176, 'Brown': 94, 'Blue': 24 }
+ 
+# my_lis = [] #empty list
+# for e in con_dict:
+#    t = (e, con_dict[e])
+#    my_lis.append(t)
+# print("List of tuple:",my_lis)
+
 
 
 

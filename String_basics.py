@@ -26,3 +26,13 @@ res=text.find("like")
 print(res)
 res=text.replace("Python","Java")
 print(res)
+val=[1,2,3,4,3]
+r=str(val)
+person={10:['Kaaviya'],("Age","mark"):("24",90)}
+names={'a','b','c','d','c'}
+r=str(person.values())
+v=str(names)
+print(v)
+print(v[0])
+s="hello"" ""world"
+print(s)
