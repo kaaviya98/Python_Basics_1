@@ -40,5 +40,6 @@ print(type(obj))
 for i in fun_generator():
      print(i)
 # print(next(obj))
+print(dir(list))
 
 

@@ -1,3 +1,6 @@
+from encodings import utf_8
+
+
 text="Hi "
 text1="there!!"
 print(text+" "+text1)
@@ -36,3 +39,27 @@ print(v)
 print(v[0])
 s="hello"" ""world"
 print(s)
+s1 = '深入 Python'
+print(len(s1))
+stri='s','t','r','i','n','g'
+print(str(stri))
+##splitmethod
+query = 'user=pilgri=m&database=master&password=PapayaWhip'
+a_list = query.split('&') 
+print(a_list)#['user=pilgri=m', 'database=master', 'password=PapayaWhip']
+a_list_of_lists = [v.split('=', 1) for v in a_list ] 
+print(a_list_of_lists)
+a_dict = dict(a_list_of_lists) 
+print(a_dict)
+by = b'b';s='str'
+print(s.encode('utf_8'))
+print(by)
+print(s+by.decode('ascii'))
+bb='\xff'
+print(bb)
+bbb=bytearray(by)
+print(bbb)
+a_string = '深入 Python'
+by = a_string.encode('big5') 
+ret=by.decode('big5')
+print(ret)
